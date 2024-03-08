@@ -1,0 +1,108 @@
+body {
+    
+   background-image:url("mahi3.png");
+   height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment:scroll;
+  
+}
+.image{
+align-item:center;
+height:500px;
+display:flex;
+justify-content:center;
+
+}
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color: #000;
+}
+
+header * {
+    display: inline;
+    height: 50px;
+}
+
+header ul {
+    padding: 0;
+}
+
+header li {
+    margin-left: 20px;
+}
+
+section {
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+
+#hero .profile-img {
+    width: 300px;
+    border-radius: -50%; /* Add this line */
+    
+}
+
+h3{
+    text-align: center;
+    padding: 50px;
+}
+
+/* Add everything below here */
+
+#hero h1 {
+    font-size: 2em;
+}
+
+section h2 {
+    font-size: 2.5em;
+}
+
+section h3 {
+    font-size: 1.5em;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+h2{
+    colour:#000;
+    font-size:100px;
+width:20%;
+}
+p{
+color:#000;
+align-item:center;
+font-family:segoe script;
+font-size:22px;
+line-height:23px;
+}
+button{
+   width:180px;
+   color:#000;
+   font-size:12px;
+   padding:12px 0;
+   background:#fff;
+border:0;
+border-radius:20px;
+outline:none;
+margin-top:30px;
+cursor:pointer;
+}
+h4{
+    text-align: center;
+    padding: 25px;
+}
